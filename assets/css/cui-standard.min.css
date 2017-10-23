@@ -12211,10 +12211,11 @@ body.cui {
               transform: translate3d(0, 0, 0); } }
   .cui .apollo-sidebar li.sidebar__item--selected a,
   .cui .apollo-sidebar li.selected a,
-  .cui .apollo-sidebar li a:hover,
+  .cui .apollo-sidebar li a:focus,
   .cui .sidebar li.sidebar__item--selected a,
   .cui .sidebar li.selected a,
-  .cui .sidebar li a:hover {
+  .cui .sidebar li a:focus {
+  color: unset;
     background-color: #21b7ef; }
   .cui .apollo-sidebar > ul > li,
   .cui .sidebar > ul > li {
@@ -12231,6 +12232,7 @@ body.cui {
     .cui .sidebar--blue li.selected a,
     .cui .sidebar--blue li a:hover {
       background-color: #21b7ef; }
+
     .cui .apollo-sidebar--blue > ul > li,
     .cui .sidebar--blue > ul > li {
       -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.25) inset;
