@@ -16,20 +16,12 @@
 
 			<!-- Access/Proxy -->
 
-			<div class="row " style="overflow-x: auto;">
 
-				<table class="table table--bordered table--loose">
-					<thead>
-						<tr>
-							<th class="text-center col-sm-6">My Access</th>
-							<th class="text-center col-sm-6">My Proxies</th>
-
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>
-								<div class="row">
+<!-- Tabs -->
+			<tabs class="secondary-tabs"> 
+			<tab class="tab" tabTitle="My Shared">
+			
+			<div class="row">
 
 									<table
 										class="table table--bordered table--highlight table--hover">
@@ -39,23 +31,23 @@
 												<th>Default</th>
 												<th>Access Level</th>
 												<th>Tool</th>
-												<th>Edit</th>
+
 											</tr>
 										</thead>
 										<tbody>
 											<tr>
 												<td>Territory A</td>
 												<td>Yes</td>
-												<td>Edit</td>
+												<td>Submit</td>
 												<td>SFDC</td>
-												<td><a href="">Edit</a></td>
+											
 											</tr>
 											<tr>
 												<td>Territory B</td>
 												<td>Yes</td>
-												<td>Edit/Submit</td>
+												<td>Submit</td>
 												<td>SFDC/NGF</td>
-												<td><a href="">Edit</a></td>
+										
 											</tr>
 
 										</tbody>
@@ -64,9 +56,7 @@
 
 								</div>
 								<div>
-									<br> <a href="" class="col-xl text-right"
-										href="http://wwwin-dev.cisco.com/cgi-bin/WWSales/gsts/OMF/OMFPositionList.pl"
-										target="_blank">See all</a>
+									
 									<div class="col-xl base-margin-top flex-center-horizontal">
 
 										<a
@@ -76,9 +66,14 @@
 										</a>
 									</div>
 								</div>
+			
+			
+										
+			
+			</tab> 
+			<tab class="tab" tabTitle="My Proxies"> 
+			
 
-							</td>
-							<td>
 								<div class="row">
 
 									<table
@@ -89,7 +84,7 @@
 												<th>Username</th>
 												<th>Access Level</th>
 												<th>Tool</th>
-												<th>Edit</th>
+												<th>Delete</th>
 											</tr>
 										</thead>
 										<tbody>
@@ -98,14 +93,14 @@
 												<td>adrfeudj</td>
 												<td>Edit</td>
 												<td>SFDC</td>
-												<td><a href="">Edit</a></td>
+												<td><a href=""><span class="icon-trash" style="color: orangered;"></span></a></td>
 											</tr>
 											<tr>
 												<td>Territory B</td>
 												<td>kealford</td>
 												<td>Edit/Submit</td>
 												<td>SFDC/NGF</td>
-												<td><a href="">Edit</a></td>
+												<td><a href=""><span class="icon-trash" style="color: orangered;"></span></a></td>
 											</tr>
 
 										</tbody>
@@ -115,10 +110,6 @@
 								</div>
 
 								<div>
-									<br> <a href="" class="col-xl text-right"
-										href="http://wwwin-dev.cisco.com/cgi-bin/WWSales/gsts/OMF/OMFPositionList.pl"
-										target="_blank">See all</a>
-
 									<div class="col-xl base-margin-top flex-center-horizontal">
 										<a
 											href="file:///Users/adrfeudj/Desktop/Proxy%20Project/cui-1.1.0-official%202/request.html">
@@ -126,86 +117,69 @@
 										</a>
 									</div>
 								</div>
-							</td>
-						</tr>
-
-					</tbody>
-				</table>
-			</div>
-			<br> <br>
+					
+			</tab> 
+			</tabs>
 
 
-			<!-- Search -->
-			<div class="row">
-				<div class="col-xl">
-					<form action="">
-						<div class="form-group">
-							<div class="form-group__text">
-								<input id="search" type="search"> <label for="search">Search
-									CEC ID</label>
-								<button type="button" class="link">
-									<span class="icon-search"></span>
-								</button>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
+			<!-- Table -->
 
+		<div class="row" style="padding-top:20px ; display: flex;">
+			
 
-		<!-- Table -->
+					<table class="table table--bordered table--highlight table--hover">
+						<thead>
+							<tr style="text-align: center;" >
+								
+								<th>Request<br> ID</th>
+								<th>Requested<br> By</th>
+								<th>Recipient<br> ID</th>
+								<th>Access<br> Type</th>
+								<th>Access<br> Level</th>
+								<th>Request<br> Status</th>
+								<th>Level 1<br> Approver</th>
+								<th>Level 2<br> Approver</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
 
-		<div class="row" style="overflow-x: auto;">
+							</tr>
+							<tr>
+								
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+							</tr>
+							<tr>
+							
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+								<td>Ipsum</td>
+							</tr>
+						</tbody>
 
-			<table class="table table--bordered table--highlight table--hover">
-				<thead>
-					<tr>
-						<th>Request ID</th>
-						<th>Requested By</th>
-						<th>Recipient ID</th>
-						<th>Access Type</th>
-						<th>Access Level</th>
-						<th>Request Status</th>
-						<th>Level 1 Approver</th>
-						<th>Level 2 Approver</th>
-					</tr>
-				</thead>
-				<tbody>
-					<tr>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
+					</table>
 
-					</tr>
-					<tr>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-					</tr>
-					<tr>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-						<td>Ipsum</td>
-					</tr>
-				</tbody>
-
-			</table>
 		</div>
 	</div>
-</div>
+</div></div>

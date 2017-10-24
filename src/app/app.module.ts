@@ -8,6 +8,7 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { CenterComponent } from './center/center.component';
 import { RequestComponent } from './request/request.component';
 import { ApproveComponent } from './approve/approve.component';
+import { TabModule } from 'angular-tabs-component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { ApproveComponent } from './approve/approve.component';
   ],
   imports: [
     BrowserModule,
+    TabModule,
     RouterModule.forRoot([
     {
       path: 'center',
